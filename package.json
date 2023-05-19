@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Martinsr99/Hackamar/issues"
   },
-  "homepage": "https://github.com/Martinsr99/Hackamar#readme"
+  "homepage": "https://github.com/Martinsr99/Hackamar#readme",
+  "dependencies": {
+    "mongoose": "^7.1.1"
+  }
 }
